@@ -1,0 +1,15 @@
+List all heroes
+http://www.dota2.com/jsfeed/heropickerdata?v=3326812b3326812&l=english
+
+Gold icon
+https://cdn.steamstatic.com/apps/dota2/images/tooltips/gold.png
+
+Recipe icon
+https://cdn.steamstatic.com/apps/dota2/images/items/recipe_lg.png
+
+List hero, item, ability
+http://www.dota2.com/jsfeed/heropediadata?feeds=herodata,itemdata,abilitydata&v=3326812NSYOcfo4k_6s&l=english
+
+d2_dev_key = "63979FD5C0A73BC169D2FCA532298AB5"
+d2_item_list_api = "https://api.steampowered.com/IEconDOTA2_570/GetGameItems/V001/?key=%s&language=en"
+d2_item_icon = "http://cdn.dota2.com/apps/dota2/images/items/%s_lg.png"

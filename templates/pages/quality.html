@@ -1,0 +1,11 @@
+{% for qual in items|sort %}
+<section>
+    <b>{{qual.title()}}</b>
+    <ul id="{{qual}}">
+        {% for item in items[qual] %}
+            <img src="{{item.img}}" onclick="javascript:render_item('{{item.name}}')"
+                 title="{{item.lbl}}" height="40" width="45" style="cursor: pointer" />
+        {% endfor %}
+    </ul>
+</section>
+{% endfor %}
